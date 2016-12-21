@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>JS tutorial</title>
+        <meta charset="utf-8">
+    </head>
+    <body>       
+<!--
+        <p id="paragraph">Blablabla</p>
+        <button onclick="myFunc()">Изменить параграф</button>
+-->
+       
+        <script>
+            /*function isInteger(num){
+                if(num==(num^0)) return true;
+                else return false;
+            };
+        
+            alert(0&&3)
+            alert(3&&0)
+            alert(0&&null)
+            alert(2&&3)
+            alert( null || 2 && 3 || 4 );*/
+            
+            /*var name = prompt("Your name?","");
+            (name=="Настя")? alert("Привет!"):
+            (name=="Директор")? alert("Hello!"):
+            alert("Whaaat");*/
+            
+            /*var isAdmin = confirm("Вы согласны?");
+            if (isAdmin) alert( 'ДА' );
+            else alert( 'Noooooooo' );*/
+//            for (i=2;i<11;i++){
+//                if(i%2==0) alert(i);
+//            }
+            
+//            var i = 0;
+//            while (i++ < 3) {
+//                alert( "номер " + i + "!" );
+//            }
+//            
+//var num;
+            
+           /* outer: for(i=2;i<11;i++){
+                for (j=2;j<i;j++){
+                    if(i%j==0) continue outer;
+                }
+                alert('Простое число: '+i);
+            } */
+            
+//var arg = prompt("Введите arg?")
+//switch (arg) {
+//  case '0':
+//  case '1':
+//    alert( 'Один или ноль' );
+//
+//  case '2':
+//    alert( 'Два' );
+//    break;
+//
+//  case 3:
+//    alert( 'Никогда не выполнится' );
+//
+//  default:
+//    alert('Неизвестное значение: ' + arg)
+//}
+            
+//            function fib(x){
+//                if(x==1 || x==2) return 1;
+//                else return fib(x-2)+fib(x-1);
+//                 
+//            }
+//            alert(32=='32');
+//            alert('32'==32);
+//            alert('32'>'31');
+//            alert(31<'3h2');
+//            alert('sas'.toString(2));
+//             var firstNumber = +prompt("Первое число","1");
+//             var secondNumber = +prompt("Второе число","2");
+//            alert("Сумма"+(firstNumber+secondNumber));
+//            function getDecimal(x){
+//                return x-(~~x);
+//            }
+//            alert(getDecimal(-2.345));
+            
+//            function fib(n) {
+//              var a = 1,
+//                b = 0,
+//                x;
+//              for (i = 0; i < n; i++) {
+//                x = a + b;
+//                a = b
+//                b = x;
+//              }
+//              return b;
+//            }
+//            
+//            function fibBinet(n){
+//                p = (1+Math.sqrt(5))/2.0;
+//                return Math.pow(p,n)/Math.sqrt(5);
+//            }
+//            alert( fib(77) );
+            
+//            Copyright unicode symbol
+//            alert('\u00A9');
+            
+//      Проверка на пустой объект (Check is object empty)
+        function isEmpty(obj) {
+          var counter = 0;
+
+          for (var key in obj) {
+            counter++;
+          }
+          
+            if(counter>0) return true;
+            return false;
+        }
+
+        var schedule = {};
+
+        alert( isEmpty(schedule) ); // true
+
+        schedule["8:30"] = "подъём";
+
+        alert( isEmpty(schedule) ); // false
+        </script>
+<!--        <script src="script.js"></script>-->
+    </body>
+</html>
